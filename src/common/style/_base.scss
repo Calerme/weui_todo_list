@@ -1,0 +1,17 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  height: 100%;
+  color: $deepGray;
+}
+
+body {
+  background-color: $bodyBgColor;
+}
+
+::placeholder {
+  color: $gray;
+}
